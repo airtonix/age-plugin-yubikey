@@ -8,6 +8,8 @@ to 0.3.0 are beta releases.
 
 ## [Unreleased]
 
+## [0.5.2] - 2026-10-14
+
 ### Added
 - Support for the native non-hybrid tagged recipient type (`age1tag1..`).
   - Encryption requires making the `age-plugin-yubikey` binary available on the
@@ -22,7 +24,6 @@ to 0.3.0 are beta releases.
   identity files instead of `age1yubikey1..` recipients. The latter is now only
   shown in comments for identities generated with `age-plugin-yubikey 0.5.0` or
   earlier.
-
 ## [0.3.4], [0.4.1], [0.5.1] - 2026-04-08
 ### Fixed
 - `age-plugin-yubikey` now completely ignores any identity that has unrecognised
